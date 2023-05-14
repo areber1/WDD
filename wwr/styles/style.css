@@ -1,85 +1,73 @@
 <style>
-img {
-           width: 100%;
-           height: 300px
-           max-width: 500px;
-           object-position: bottom;
-          }
-</style>
-<body>
-  <div id="content">
-    <header>
+    img {
+        width: 100%;
+        height: 300px;
+        max-width: 500px;
+        object-position: bottom;
+    }
+
+    body {
+        background-color: #E2C391;
+        color: #427AA1;
+    }
+
     #content {
         max-width: 1600px;
         height: 100px;
-        margin:0 auto;
-      }
-    .background{
-            height: 725px;
-}
-    </footer>
-  </div>
-</body>
-body {
-    background-color: #E2C391; /* set background color for body element */
-    color: #427AA1; /* set font color for body element */
-  }
-  
-  header {
-    background-color: rgba(20,30,13,.7); /* set background color for header element */
-  }
-  
-  nav a:hover {
-    background-color: #f06449; /* set background color for nav links on hover */
-    color: #427AA1; /* adjust font color for nav links on hover */
-    text-decoration: none; /* remove underline on nav links on hover */
-  }
-  
-  .book, .join {
-    background-color: #427AA1; /* set background color for .book and .join elements */
-  }
-  
-  .book:hover, .join:hover {
-    background-color: #f06449; /* set background color for .book and .join elements on hover */
-  }
-  
-  #background {
-    background-color: #C1EEFF; /* set background color for #background element */
-  }
-  
-  .msg {
-    background-color: #C1EEFF; /* set background color for .msg element */
-  }
-  
-  .footer .body {
-    background-color: #C1EEFF; /* set background color for footer element */
-  }
-  
-  /* adjust font color for different elements */
-  nav a, .home-title, h4, .book, .join, .msg h2, .msg p, footer, footer a {
-    color: #427AA1;
-  }
-  
-  /* adjust width of elements */
-  .logo, .icon {
-    width: 80px;
-  }
-  
-  #rafting-img {
-    width: 100%;
-  }
-  
-  /* remove underlines from links and add underline on hover */
-  nav a, .book, .join, footer a {
-    text-decoration: none;
-  }
-  
-  footer p, footer a:hover {
-    text-decoration: underline;
-  }
-  
-  /* adjust font size of footer text */
-  footer p {
-    font-size: 1.2em;
-  }
-  
+        margin: 0 auto;
+    }
+
+    header {
+        background-color: rgba(20, 30, 13, 0.7);
+    }
+
+    nav a:hover {
+        background-color: #f06449;
+        color: #427AA1;
+        text-decoration: none;
+    }
+
+    .book, .join {
+        background-color: #427AA1;
+    }
+
+    .book:hover, .join:hover {
+        background-color: #f06449;
+    }
+
+    #background {
+        background-color: #C1EEFF;
+    }
+
+    .msg {
+        background-color: #C1EEFF;
+    }
+
+    footer .body {
+        background-color: #C1EEFF;
+    }
+
+    nav a, .home-title, h4, .book, .join, .msg h2, .msg p, footer, footer a {
+        color: #427AA1;
+    }
+
+    .logo, .icon {
+        width: 80px;
+    }
+
+    #rafting-img {
+        width: 100%;
+    }
+
+    nav a, .book, .join, footer a {
+        text-decoration: none;
+    }
+
+    footer p, footer a:hover {
+        text-decoration: underline;
+    }
+
+    footer p {
+        font-size: 1.2em;
+    }
+<style>
