@@ -19,7 +19,13 @@ nav a {
     justify-self: center;
     align-self: center;
 }
-
+footer {
+    background-color: #D4AC0D;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px 50px;
+}
 
 footer .social img {
    width: 80px;
