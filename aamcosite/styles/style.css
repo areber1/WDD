@@ -45,3 +45,15 @@ footer a:hover {
 .social {
     justify-self: end;
 }
+
+
+@media screen and (max-width: 900px) {
+     footer {
+      display: block;
+      height: auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+
+}
