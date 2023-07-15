@@ -20,12 +20,9 @@ nav a {
     align-self: center;
 }
 footer {
-    background-color: #E70B0B;
-    margin-top: 200px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    background-color: #396E94; 
     padding: 25px 50px;
-}
+ }
 footer .social img {
     padding-top: 15px;
     width: 50px;
@@ -43,10 +40,15 @@ footer a:hover {
     text-decoration: underline;
 }
 .social {
-    justify-self: end;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ div.social a img {
+    margin: 0;
+    padding: 0;
+    width: 80px;
 }
-
-
 @media screen and (max-width: 900px) {
      footer {
       display: block;
