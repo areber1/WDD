@@ -206,3 +206,15 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+div.social a img {
+   margin: 0;
+   padding: 0;
+   width: 80px;
+}
